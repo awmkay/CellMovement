@@ -16,6 +16,7 @@ FetchContent_MakeAvailable(SFML)
 
 # Adding code and linking lbiraries
 set(SOURCES
+	src/Player.cpp
 	src/main.cpp)
 include_directories(include)
 add_executable(${PROJECT_NAME} ${SOURCES})
